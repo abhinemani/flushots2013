@@ -5,15 +5,15 @@
 	 */
 	var Default = {
 		// City
-		city:'Chicago',
+		city:'Los Angeles',
 		// DOM ID of where the Google Map is to be rendered
 		domid:'map',
 		// Google Fusion Tables SQL-like query string for flu shot location data
-		eventquery:'SELECT * FROM 1leqPq9hrsGhnE8NoT00YZn1ITTzhK6BhrF8LNL4',
+		eventquery:'SELECT * FROM 1_3HJ6VW-HtDl6Gm8a8kV43lwGMXN9YOtqW3N2w2p',
 		// Google Fusion Tables URI
 		fturl:'https://www.googleapis.com/fusiontables/v1/query',
 		// Google maps API key
-		googlemapsapikey:'AIzaSyADhKP5hkQ6AQI857U6e8_9z9DgjNwVJsQ',
+		googlemapsapikey:'AIzaSyCqC0j_NjIgaIeWMAJhJe1GbQ_0NiC5AqA',
 		// Icon for other for-fee events
 		iconfee:'/img/red.png',
 		// Icon for Free events
@@ -39,15 +39,15 @@
 			enableEventPropagation: false
 		},
 		// Start center latutude of the Google map
-		lat:41.875,
+		lat:34.05,
 		// Start center longitude of the Google map
-		lng:-87.6425,
+		lng:-118.250,
 		// State
-		state:'Illinois',
+		state:'California',
 		// Defined style types passed to TkMap
 		styles:'grey minlabels',
 		// Initial zoom level for the Google map
-		zoom:12,
+		zoom:11,
 		// Zoom for finding address
 		zoomaddress:14
 	};
